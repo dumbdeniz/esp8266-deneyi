@@ -1,0 +1,15 @@
+{
+  "name": "esp8266-deneyi",
+  "version": "1.0.0",
+  "description": "Arduino ESP8266 Deneyi, daha fazla bilgi için https://deniz.demirdelen.net/esp",
+  "main": "api/app.js",
+  "author": "Deniz Demirdelen",
+  "license": "MIT",
+  "scripts": {
+    "start": "node api/app.js",
+    "proxy": "node proxy/proxy.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
