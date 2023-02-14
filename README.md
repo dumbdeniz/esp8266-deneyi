@@ -42,8 +42,8 @@
 ## Ekran Görüntüleri
 
 <div align="center">
-  <img src="screenshots/offline.png" width="480">
-  <img src="screenshots/offline-off.png" width="480">
+  <img src="screenshots/offline.png" width="360">
+  <img src="screenshots/offline-off.png" width="360">
 </div>
 
 ## API Kullanımı
