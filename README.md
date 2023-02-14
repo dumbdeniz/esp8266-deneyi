@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://deniz.demirdelen.net/">
-    <img src="https://content.demirdelen.net/images/deniz-full-img.png" alt="Logo" width="247" height="100">
+    <img src="https://content.demirdelen.net/images/deniz-full-img.png" alt="Logo" width="296" height="120">
   </a>
   <br>
   <br>
@@ -116,8 +116,9 @@ POST https://api.demirdelen.net/esp?led=0&key=2hhpKBRkLrr2olCMM8HTUpllqLZWL2BG
 
 #
 
+<br>
+
 <div align="center">
-  <br>
   © 2023 Deniz DEMIRDELEN
   <br>
   Bu deney, api.demirdelen.net tarafından desteklenmektedir.
