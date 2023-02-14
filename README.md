@@ -6,7 +6,7 @@
   <br>
 </div>
 
-## Arduino ESP8266 Deneyi
+## Genel Bakış
 
 * Arduino
   - ESP8266 modülünü gerekli ayarlarda başlatma, tanımlanan Wi-Fi ağına bağlama
@@ -37,10 +37,15 @@
   - LED durumunu okuma ve değiştirme
   - Responsive arayüz
   - Aura Parıltısı™ ile LED'in açık olduğunu belirten ışık efekti
- 
 <br>
 
-#
+## API Kullanımı
+
+### Arduino
+```
+https://api.demirdelen.net/esp?slow=0&key=w3hLUCppceviC3UyA4hw0M2qFqQJi1v4
+```
+```slow=[0-1]``` İstek azaltıcı yavaş modun çalıştığını belirtir. Böylece Arduino çevrımdışı sayılmadan 60 saniye boyunca uykuya girebilir.
   
 <div align="center">
   <br>
