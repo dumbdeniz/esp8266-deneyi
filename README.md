@@ -47,7 +47,7 @@ GET https://api.demirdelen.net/esp?slow=0&key=w3hLUCppceviC3UyA4hw0M2qFqQJi1v4
 ```
 &emsp; ```slow=[0-1]``` <br>
 
-&emsp; &emsp; İstek azaltıcı yavaş modun çalışma durumunu belirtir. Böylece Arduino çevrımdışı sayılmadan 60 saniye boyunca uykuya girebilir.
+&emsp; &emsp; Akıllı İstek Azaltıcı™ modunun çalışma durumunu belirtir. Böylece Arduino çevrımdışı sayılmadan 60 saniye boyunca uykuya girebilir.
 
 #### Yanıt
 
@@ -84,7 +84,33 @@ GET https://api.demirdelen.net/esp?key=2hhpKBRkLrr2olCMM8HTUpllqLZWL2BG
 
 &emsp; ```ledSending:``` <br>
 
-&emsp; &emsp; Arduino, sunucudaki LED durumunu okuyup işleyene kadar değeri ```true``` olur. İsteğin Arduino'ya ulaşıp ulaşmadığını yorumlamak için kullanılabilir ancak işlemin başarılı olup olmadığını belirtemez.
+&emsp; &emsp; Arduino, sunucudaki LED durumunu okuyup işleyene kadar değeri ```true``` olur. İsteğin Arduino'ya ulaşıp ulaşmadığını kontrol etmek için kullanılabilir ancak başarılı olup olmadığını belirtemez.
+
+&emsp; ```slowMode:``` <br>
+
+&emsp; &emsp; Arduino'nun Akıllı İstek Azaltıcı™ modunda olup olmadığını belirtir. LED değiştirme istekleri Arduino'ya 60 saniye gibi bir süre kadar ulaşmayabilir, çünkü Arduino'nun bu modda daha az istek göndermesi beklenir.
+
+&emsp; ```lastSeen:``` <br>
+
+&emsp; &emsp; Arduino'nun gönderdiği son istekten bu yana ne kadar süre (sn) geçtiğini belirtir.
+
+&emsp; ```isOnline:``` <br>
+
+&emsp; &emsp; Arduino'nun çevrimiçi olup olmadığını belirtir. Arduino eğer 30 saniye boyunca herhangi bir istek göndermemişse çevrımdışı sayılır. Akıllı İstek Azaltıcı™ modunda bu 60 saniyeye kadar uzayabilir.
+
+#
+
+```
+POST https://api.demirdelen.net/esp?led=0&key=2hhpKBRkLrr2olCMM8HTUpllqLZWL2BG
+```
+
+&emsp; ```led=[0-1]``` <br>
+
+&emsp; &emsp; Şu anki LED durumunun ayarlanması gereken değeri belirtir.
+
+#### NOT:
+
+&emsp; Arduino'nun çevrimdışı olması veya zaten bir isteğin gönderilmiş ve işleniyor olması gibi durumlar için olası bir HTTP hata koduna karşı hazırlıklı olunmalıdır. Bu istek her zaman başarılı olmaz.
 
 <br>
 
