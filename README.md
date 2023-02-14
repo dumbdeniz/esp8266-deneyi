@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://deniz.demirdelen.net/">
-    <img src="https://content.demirdelen.net/images/deniz-full-img.png" alt="Logo" width="296" height="120">
+    <img src="https://content.demirdelen.net/images/deniz-full-img.png" width="296" height="120">
   </a>
   <br>
   <br>
@@ -41,6 +41,7 @@
 
 ## Ekran Görüntüleri
 
+<br>
 <div align="center">
   <img src="screenshots/offline-off.png" width="400">
   <img src="screenshots/online-on.png" width="400">
