@@ -57,7 +57,7 @@
 #### İstek
 
 ```
-GET https://api.demirdelen.net/esp?slow=0&key=w3hLUCppceviC3UyA4hw0M2qFqQJi1v4
+GET https://api.demirdelen.net/esp?slow=0&key=ARDUINO_API_ANAHTARI
 ```
 &emsp; ```slow=[0-1]``` <br>
 
@@ -80,7 +80,7 @@ led:0
 #### İstek
 
 ```
-GET https://api.demirdelen.net/esp?key=2hhpKBRkLrr2olCMM8HTUpllqLZWL2BG
+GET https://api.demirdelen.net/esp?key=WEB_API_ANAHTARI
 ```
 
 #### Yanıt
@@ -120,7 +120,7 @@ GET https://api.demirdelen.net/esp?key=2hhpKBRkLrr2olCMM8HTUpllqLZWL2BG
 #### İstek
 
 ```
-POST https://api.demirdelen.net/esp?led=0&key=2hhpKBRkLrr2olCMM8HTUpllqLZWL2BG
+POST https://api.demirdelen.net/esp?led=0&key=WEB_API_ANAHTARI
 ```
 
 &emsp; ```led=[0-1]``` <br>
