@@ -43,10 +43,53 @@
 
 ### Arduino
 ```
-https://api.demirdelen.net/esp?slow=0&key=w3hLUCppceviC3UyA4hw0M2qFqQJi1v4
+GET https://api.demirdelen.net/esp?slow=0&key=w3hLUCppceviC3UyA4hw0M2qFqQJi1v4
 ```
-```slow=[0-1]``` İstek azaltıcı yavaş modun çalıştığını belirtir. Böylece Arduino çevrımdışı sayılmadan 60 saniye boyunca uykuya girebilir.
-  
+&emsp; ```slow=[0-1]``` <br>
+
+&emsp; &emsp; İstek azaltıcı yavaş modun çalışma durumunu belirtir. Böylece Arduino çevrımdışı sayılmadan 60 saniye boyunca uykuya girebilir.
+
+#### Yanıt
+
+```
+led:0
+```
+
+&emsp; ```led:[0-1]``` <br>
+
+&emsp; &emsp; Arduino'nun LED'i yakıp yakmaması gerektiğini belirtir.
+
+#
+
+### Web
+```
+GET https://api.demirdelen.net/esp?key=2hhpKBRkLrr2olCMM8HTUpllqLZWL2BG
+```
+
+#### Yanıt
+
+```
+{
+    "led": false,
+    "ledSending": false,
+    "slowMode": false,
+    "lastSeen": 1.23,
+    "isOnline": true
+}
+```
+
+&emsp; ```led:``` <br>
+
+&emsp; &emsp; Sunucudaki LED durumunu belirtir. Bu değer LED değiştirme isteğinden sonra hemen değişir ancak Arduino'nun bu değeri okuyup işlemesi birkaç saniye (veya daha fazla) süreceğinden şu anlık LED durumunu değil, olması gereken durumu belirtir.
+
+&emsp; ```ledSending:``` <br>
+
+&emsp; &emsp; Arduino, sunucudaki LED durumunu okuyup işleyene kadar değeri ```true``` olur. İsteğin Arduino'ya ulaşıp ulaşmadığını yorumlamak için kullanılabilir ancak işlemin başarılı olup olmadığını belirtemez.
+
+<br>
+
+#
+
 <div align="center">
   <br>
   © 2023 Deniz DEMIRDELEN
