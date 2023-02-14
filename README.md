@@ -6,7 +6,7 @@
   <br>
 </div>
 
-## Genel Bakış
+## Deney Kapsamı
 
 * Arduino
   - ESP8266 modülünü gerekli ayarlarda başlatma, tanımlanan Wi-Fi ağına bağlama
