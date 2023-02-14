@@ -39,6 +39,13 @@
   - Aura Parıltısı™ ile LED'in açık olduğunu belirten ışık efekti
 <br>
 
+## Ekran Görüntüleri
+
+<div align="center">
+  <img src="screenshots/offline.png" width="480">
+  <img src="screenshots/offline-off.png" width="480">
+</div>
+
 ## API Kullanımı
 
 ### Arduino
