@@ -44,6 +44,9 @@
 <div align="center">
   <img src="screenshots/offline.png" width="380">
   <img src="screenshots/offline-off.png" width="380">
+  <img src="screenshots/online-off-long.png" width="380">
+  <img src="screenshots/online-on.png" width="380">
+  <img src="screenshots/slowmode-on.png" width="380">
 </div>
 
 ## API Kullanımı
