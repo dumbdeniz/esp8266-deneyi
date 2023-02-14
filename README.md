@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://deniz.demirdelen.net/">
-    <img src="https://content.demirdelen.net/images/deniz-full-img.png" width="296" height="120" style="width: 50%;">
+    <img src="https://content.demirdelen.net/images/deniz-full-img.png" style="width: 35vmin;">
   </a>
   <br>
   <br>
