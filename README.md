@@ -53,6 +53,9 @@
 ## API Kullanımı
 
 ### Arduino
+
+#### İstek
+
 ```
 GET https://api.demirdelen.net/esp?slow=0&key=w3hLUCppceviC3UyA4hw0M2qFqQJi1v4
 ```
@@ -73,6 +76,9 @@ led:0
 #
 
 ### Web
+
+#### İstek
+
 ```
 GET https://api.demirdelen.net/esp?key=2hhpKBRkLrr2olCMM8HTUpllqLZWL2BG
 ```
@@ -110,6 +116,8 @@ GET https://api.demirdelen.net/esp?key=2hhpKBRkLrr2olCMM8HTUpllqLZWL2BG
 &emsp; &emsp; Arduino'nun çevrimiçi olup olmadığını belirtir. Arduino eğer 30 saniye boyunca herhangi bir istek göndermemişse çevrımdışı sayılır. [Akıllı İstek Azaltıcı™][3] modunda bu 60 saniyeye kadar uzayabilir.
 
 #
+
+#### İstek
 
 ```
 POST https://api.demirdelen.net/esp?led=0&key=2hhpKBRkLrr2olCMM8HTUpllqLZWL2BG
