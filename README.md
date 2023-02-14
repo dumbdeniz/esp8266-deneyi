@@ -45,6 +45,9 @@
 <div align="center">
   <img src="screenshots/offline-off.png" width="400">
   <img src="screenshots/online-on.png" width="400">
+  <br>
+  <br>
+  <a href="screenshots/">Daha fazla ekran görüntüsü</a>
 </div>
 
 ## API Kullanımı
@@ -135,3 +138,4 @@ POST https://api.demirdelen.net/esp?led=0&key=2hhpKBRkLrr2olCMM8HTUpllqLZWL2BG
 [1]: arduino/esp.ino#L45
 [2]: api/app.js#L80
 [3]: api/app.js#L82
+[4]: screenshots/
