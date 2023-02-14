@@ -14,7 +14,7 @@
   - HTTP istekleri gönderme ve yanıta göre bağlı LED'i yakıp söndürme
   - Kod hatalarına karşı Arduino'yu oto. yeniden başlatma
   - Hata ayıklamayı kolaylaştıran, okunabilir seri çıktısı.
-  - Akıllı İstek Azaltıcı™ ile sunucuya gereksiz istekler göndermekten kaçınma
+  - [Akıllı İstek Azaltıcı™][1] ile sunucuya gereksiz istekler göndermekten kaçınma
   <br>
   
 * Sunucu
@@ -47,7 +47,7 @@ GET https://api.demirdelen.net/esp?slow=0&key=w3hLUCppceviC3UyA4hw0M2qFqQJi1v4
 ```
 &emsp; ```slow=[0-1]``` <br>
 
-&emsp; &emsp; Akıllı İstek Azaltıcı™ modunun çalışma durumunu belirtir. Böylece Arduino çevrımdışı sayılmadan 60 saniye boyunca uykuya girebilir.
+&emsp; &emsp; [Akıllı İstek Azaltıcı™][1] modunun çalışma durumunu belirtir. Böylece Arduino çevrımdışı sayılmadan 60 saniye boyunca uykuya girebilir.
 
 #### Yanıt
 
@@ -88,7 +88,7 @@ GET https://api.demirdelen.net/esp?key=2hhpKBRkLrr2olCMM8HTUpllqLZWL2BG
 
 &emsp; ```slowMode:``` <br>
 
-&emsp; &emsp; Arduino'nun Akıllı İstek Azaltıcı™ modunda olup olmadığını belirtir. LED değiştirme istekleri Arduino'ya 60 saniye gibi bir süre kadar ulaşmayabilir, çünkü Arduino'nun bu modda daha az istek göndermesi beklenir.
+&emsp; &emsp; Arduino'nun [Akıllı İstek Azaltıcı™][2] modunda olup olmadığını belirtir. LED değiştirme istekleri Arduino'ya 60 saniye gibi bir süre kadar ulaşmayabilir, çünkü Arduino'nun bu modda daha az istek göndermesi beklenir.
 
 &emsp; ```lastSeen:``` <br>
 
@@ -96,7 +96,7 @@ GET https://api.demirdelen.net/esp?key=2hhpKBRkLrr2olCMM8HTUpllqLZWL2BG
 
 &emsp; ```isOnline:``` <br>
 
-&emsp; &emsp; Arduino'nun çevrimiçi olup olmadığını belirtir. Arduino eğer 30 saniye boyunca herhangi bir istek göndermemişse çevrımdışı sayılır. Akıllı İstek Azaltıcı™ modunda bu 60 saniyeye kadar uzayabilir.
+&emsp; &emsp; Arduino'nun çevrimiçi olup olmadığını belirtir. Arduino eğer 30 saniye boyunca herhangi bir istek göndermemişse çevrımdışı sayılır. [Akıllı İstek Azaltıcı™][3] modunda bu 60 saniyeye kadar uzayabilir.
 
 #
 
@@ -123,3 +123,7 @@ POST https://api.demirdelen.net/esp?led=0&key=2hhpKBRkLrr2olCMM8HTUpllqLZWL2BG
   <br>
   Bu deney, api.demirdelen.net tarafından desteklenmektedir.
 </div>
+
+[1]: arduino/esp.ino#L45
+[2]: api/app.js#L80
+[3]: api/app.js#L82
