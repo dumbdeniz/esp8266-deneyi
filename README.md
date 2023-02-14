@@ -16,6 +16,7 @@
   - Hata ayıklamayı kolaylaştıran, okunabilir seri çıktısı.
   - Akıllı İstek Azaltıcı™ ile sunucuya gereksiz istekler göndermekten kaçınma
   <br>
+  
 * Sunucu
   - Node.js ve Express.js kullanılarak yazılmış REST API
   - API anahtarları ile doğrulama
@@ -25,6 +26,17 @@
   - Arduino var olan LED değiştirme isteğini okumadığı sürece yeni değiştirme isteklerini reddetme
   - Arduino'nun var olan LED değiştirme isteğinini okuyup okumadığını belirten yanıt değeri
   - Arduino'nun yavaş modda olup olmadığını belirten yanıt değeri
+  - Anlık durumu JSON dosyasına kaydetme, bu sırada herhangi bir hata oluşması durumunda yeniden deneme
+  - Anlık durumun gelen istekle aynı olması gibi durumlarda herhangi bir işlem yapmamak gibi performans optimizasyonları
+  <br>
+  
+* Web
+  - Fetch kullanarak javascript üzerinden HTTP istekleri gönderme
+  - Polling ile canlı veri sağlama
+  - Anlık durumu kontrol etme (açık, uykuda, çevrimdışı vb.)
+  - LED durumunu okuma ve değiştirme
+  - Responsive arayüz
+  - Aura Parıltısı™ ile LED'in açık olduğunu belirten ışık efekti
  
 <br>
 
