@@ -43,8 +43,8 @@
 
 <br>
 <div align="center">
-  <img src="screenshots/offline-off.png" width="400">
-  <img src="screenshots/online-on.png" width="400">
+  <img src="screenshots/offline-off.png" width="400" height="225">
+  <img src="screenshots/online-on.png" width="400" height="225">
   <br>
   <br>
   <a href="screenshots/">Daha fazla ekran görüntüsü</a>
