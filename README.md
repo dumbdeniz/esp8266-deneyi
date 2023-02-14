@@ -23,7 +23,7 @@
   - API anahtarına göre isteği gönderen cihazı bulma
   - İsteklerin ne zaman gönderildiğini takip ederek Arduino'nun çevrimiçi olup olmadığını kontrol etme.
   - Arduino çevrımdışı ise LED değiştirme isteklerini reddetme
-  - Arduino var olan LED değiştirme isteğini okumadığı sürece yeni değiştirme isteklerini reddetme
+  - Arduino var olan LED değiştirme isteğini okumadığı sürece yeni isteklerini reddetme
   - Arduino'nun var olan LED değiştirme isteğinini okuyup okumadığını belirten yanıt değeri
   - Arduino'nun yavaş modda olup olmadığını belirten yanıt değeri
   - Anlık durumu JSON dosyasına kaydetme, bu sırada herhangi bir hata oluşması durumunda yeniden deneme
