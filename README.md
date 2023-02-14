@@ -13,7 +13,7 @@
   - Seri iletişim ile modüle AT komutları gönderme, sonuçlarını doğrulama
   - HTTP istekleri gönderme ve yanıta göre bağlı LED'i yakıp söndürme
   - Kod hatalarına karşı Arduino'yu oto. yeniden başlatma
-  - Hata ayıklamayı kolaylaştıran, okunabilir seri çıktısı.
+  - Hata ayıklamayı kolaylaştıran, okunabilir seri çıktısı
   - [Akıllı İstek Azaltıcı™][1] ile sunucuya gereksiz istekler göndermekten kaçınma
   <br>
   
